@@ -1,3 +1,4 @@
+HEAD
 # 🇬🇧 English Accent Detection Tool
 
 This Streamlit app detects English accents from a video link (like Loom or MP4). It outputs:
@@ -5,7 +6,6 @@ This Streamlit app detects English accents from a video link (like Loom or MP4).
 - Confidence score (0–100%)
 - A short explanation
 
----
 
 ## 🛠 How to Run
 
@@ -17,3 +17,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 streamlit run app.py
 
+# accent-detector
+English Accent Detection Tool
+>>>>>>> ff65c02279097af931abc75443a86443c38cc4aa
