@@ -10,7 +10,7 @@ This Streamlit app detects English accents from a video link (like Loom or MP4).
 ## 🛠 How to Run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/accent-detector.git
+git clone https://github.com/pchairani/accent-detector.git
 cd accent-detector
 python3 -m venv venv
 source venv/bin/activate
