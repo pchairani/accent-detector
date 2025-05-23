@@ -19,4 +19,3 @@ streamlit run app.py
 
 # accent-detector
 English Accent Detection Tool
->>>>>>> ff65c02279097af931abc75443a86443c38cc4aa
