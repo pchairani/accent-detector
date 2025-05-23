@@ -1,0 +1,13 @@
+# Virtual environment
+venv/
+
+# Cache files
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+
+# Media files
+*.mp4
+*.wav
