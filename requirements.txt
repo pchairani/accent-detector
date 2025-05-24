@@ -17,7 +17,7 @@ jsonschema-specifications==2025.4.1
 MarkupSafe==3.0.2
 moviepy @ git+https://github.com/Zulko/moviepy.git@f515b100e1fd069da6f29d5b01b1d42b52d8068d
 narwhals==1.40.0
-numpy==2.2.6
+numpy<2
 packaging==24.2
 pandas==2.2.3
 pillow==11.2.1
@@ -31,6 +31,7 @@ pytz==2025.2
 referencing==0.36.2
 requests==2.32.3
 rpds-py==0.25.1
+scikit-learn
 six==1.17.0
 smmap==5.0.2
 streamlit==1.45.1
@@ -42,3 +43,7 @@ typing_extensions==4.13.2
 tzdata==2025.2
 urllib3==2.4.0
 yt-dlp==2025.5.22
+openai-whisper
+torch==2.2.2
+librosa==0.10.1
+
