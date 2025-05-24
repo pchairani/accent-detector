@@ -1,4 +1,3 @@
-HEAD
 # Virtual environment
 venv/
 
@@ -187,4 +186,3 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-
