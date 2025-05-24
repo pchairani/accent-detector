@@ -1,3 +1,5 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.0.1+cpu
 altair==5.5.0
 attrs==25.3.0
 blinker==1.9.0
@@ -44,6 +46,5 @@ tzdata==2025.2
 urllib3==2.4.0
 yt-dlp==2025.5.22
 faster-whisper==1.0.1
-torch==2.0.1
 librosa==0.10.1
 
