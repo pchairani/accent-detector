@@ -20,7 +20,7 @@ narwhals==1.40.0
 numpy<2
 packaging==24.2
 pandas==2.2.3
-pillow==11.2.1
+pillow==10.2.0
 proglog==0.1.12
 protobuf==6.31.0
 pyarrow==20.0.0
@@ -43,7 +43,7 @@ typing_extensions==4.13.2
 tzdata==2025.2
 urllib3==2.4.0
 yt-dlp==2025.5.22
-openai-whisper
-torch==2.2.2
+faster-whisper==1.0.1
+torch==2.1.0
 librosa==0.10.1
 

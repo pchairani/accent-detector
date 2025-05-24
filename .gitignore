@@ -190,4 +190,3 @@ cython_debug/
 *.wav
 *.mp4*
 backup_media/
-

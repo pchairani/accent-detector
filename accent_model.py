@@ -1,10 +1,10 @@
-import whisper
+from faster_whisper import WhisperModel
 import librosa
 import numpy as np
 import random
 
 # Load Whisper model once
-model = whisper.load_model("base")
+model = WhisperModel("base")
 
 # Dummy classifier using pronunciation features
 def fake_accent_classifier(audio_features):
@@ -13,8 +13,9 @@ def fake_accent_classifier(audio_features):
     return accent, confidence
 
 def transcribe_and_classify(audio_path):
-    # Transcribe using Whisper
-    transcription = model.transcribe(audio_path)
+    # Transcribe using faster-whisper
+    segments, info = model.transcribe(audio_path)
+    text = " ".join(segment.text for segment in segments)
 
     # Extract audio features (dummy)
     y, sr = librosa.load(audio_path)
@@ -25,7 +26,7 @@ def transcribe_and_classify(audio_path):
     accent, confidence = fake_accent_classifier(audio_features)
 
     return {
-        "transcript": transcription["text"],
+        "transcript": text,
         "accent": accent,
         "confidence": confidence
     }
