@@ -186,3 +186,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+*.webm
+*.wav
+*.mp4*
+backup_media/
+
